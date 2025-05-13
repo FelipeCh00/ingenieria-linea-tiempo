@@ -1,0 +1,48 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #2c3e50;
+}
+header {
+  background-color: #0d6efd;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+nav {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.timeline-section {
+  padding: 2rem;
+}
+.timeline-item {
+  border-left: 4px solid #0d6efd;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  position: relative;
+}
+.timeline-item::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-color: #0d6efd;
+  border-radius: 50%;
+  position: absolute;
+  left: -11px;
+  top: 8px;
+}
+.timeline-year {
+  font-weight: bold;
+  color: #0d6efd;
+}
+.quote {
+  font-style: italic;
+  color: #495057;
+}
+footer {
+  background-color: #f1f3f5;
+  text-align: center;
+  padding: 2rem;
+}
